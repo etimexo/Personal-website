@@ -2156,6 +2156,7 @@ progress {
   pointer-events: none;
   cursor: default;
 }
+
 .nav-item .nav-link {
   font-size: 1.5rem;
   padding: 0;
@@ -2185,8 +2186,14 @@ progress {
 .nav-justified .nav-item .nav-link {
   width: 100%;
 }
-
-
+.nav-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navbar-nav li a {
+  padding: 5px;
+}
 .tab-content > .tab-pane {
   display: none;
 }
