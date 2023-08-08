@@ -583,10 +583,6 @@ progress {
   content: "— ";
 }
 
-.img-fluid {
-  max-width: 50%;
-  height: auto;
-}
 .img-thumbnail {
   padding: 0.25rem;
   background-color: #fff;
@@ -1224,7 +1220,9 @@ progress {
     padding-top: 10px;
     border-radius: 0px;
   }
-
+  .img-fluid {
+    width: 100%;
+  }
 }
 @media (min-width: 992px) {
   .col-lg {
