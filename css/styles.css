@@ -7961,6 +7961,9 @@ html {
     width: 3vw;
     left: -4vw;
   }
+  .align-items-center .img-fluid {
+    width: 100%;
+  }
 }
 @media (min-width: 768px) {
   .profile {
